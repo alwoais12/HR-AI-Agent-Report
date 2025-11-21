@@ -39,7 +39,7 @@ function App() {
       
       {started && (
         <>
-          <Canvas shadows camera={{ position: [0, 3, 8], fov: 42 }}>
+          <Canvas shadows camera={{ position: [0, 4, 12], fov: 42 }}>
             <color attach="background" args={['#303030']} />
             <Experience activeMonthIndex={activeMonthIndex} />
           </Canvas>
